@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="container d-flex flex-column align-items-center">
-      <h1 className="display-4 text-center mt-4">Gerenciador de Tarefas</h1>
+      <h1 className="display-4 text-center mt-4">Hello, tarefas</h1>
       <div className="col-12 col-md-8 col-lg-6">
         <TarefaEntrada adicionarTarefa={adicionarTarefa} />
         <TarefaLista tarefas={tarefas} />
